@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  /* background-color: #090e22; */
+  /* background-color: #2f1335; */
+  background-color: #9f86c0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* centralizar a section na vertical */
+  /* height: 100vh; */
+  min-height: 100vh;
+}
+
+.container {
+  /* background-color: #1d1e33; */
+  /* background-color: #620e5d; */
+  background-color: #e0b1cb;
+  padding: 2rem;
+
+  /* definindo altura e largura do container */
+  /* min-width: 400px;
+    min-height: 400px; */
+  width: 400px;
+  height: 400px;
+}
+
+.title {
+  color: #231942;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.form-control label {
+  color: #231942;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+}
+
+.form-control input {
+  padding: 1rem 0.5rem;
+}
+
+.btn-control {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+button {
+  /* background-color: #8b0000; */
+  /* background-color: #ce3762; */
+  background-color: #231942;
+  color: #FFFFFF;
+  border: none;
+  padding: 1rem 1.5rem;
+}
+
+button:hover {
+  /* opacity: 1; */
+  background-color: #5e548e;
+}
+
+#btn-clear {
+  background-color: #444;
+}
+
+.hide {
+  display: none !important;
+}
+
+/* Table */
+#result-container {
+  text-align: center;
+}
+
+#imc-number {
+  font-size: 2.4rem;
+  margin-bottom: 0.6rem;
+  color: #231942;
+}
+
+#imc-info {
+  font-size: 1.4rem;
+  color: #231942;
+}
+
+#result-container h3 {
+  margin-top: 1rem;
+  color: #231942;
+}
+
+#result-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#imc-table {
+  margin: 1.5rem 0;
+  font-size: 0.8rem;
+}
+
+.table-header {
+  font-weight: bold;
+  color: #231942;
+}
+
+.table-header,
+.table-data {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #444;
+  text-align: center;
+}
+
+.table-header h4,
+.table-data p {
+  flex: 1;
+}
+
+.table-header h4:nth-child(3),
+.table-data p:nth-child(3) {
+  max-width: 80px;
+}
+
+#back-btn {
+  align-self: center;
+}
+
+.good {
+  color: #1faf37;
+}
+
+.low {
+  color: #e6e209;
+}
+
+.medium {
+  color: #fd6703;
+}
+
+.high {
+  color: #db1912;
+}
